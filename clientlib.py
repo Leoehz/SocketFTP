@@ -3,7 +3,7 @@ import os
 from client_config import BASE_DIR, BUFFER_SIZE
 
 def request_file(sock, filename):
-    """Solicita y recibe un archivo del servidor."""
+    """Solicita y recibe un archivo del servidor"""
     try:
         # 1. Enviar el comando 'get' al servidor
         command = f"get {filename}"
@@ -36,6 +36,8 @@ def request_file(sock, filename):
                             break
                         f.write(chunk)
                         bytes_recibidos += len(chunk)
+                        porcentaje = (bytes_recibidos / filesize) * 100
+                        print(f"\rProgreso: {porcentaje:.2f}% ", end='')
                         # print(f"Recibidos {bytes_recibidos}/{filesize} bytes", end='\r')
 
                 if bytes_recibidos == filesize:

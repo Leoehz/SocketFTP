@@ -1,0 +1,6 @@
+2025-06-03 13:03:06 [INFO] log: Logging configurado exitosamente.
+2025-06-03 13:03:06 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-03 13:03:06 [INFO] server: Configurado el directorio .\folder_server
+2025-06-03 13:03:17 [INFO] server: Conexion recibida por ('127.0.0.1', 56053)
+2025-06-03 13:03:20 [INFO] server: Se recibio comando "exit"
+2025-06-03 13:03:20 [INFO] server: El cliente ('127.0.0.1', 56053) pidió finalizar la sesión

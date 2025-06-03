@@ -1,0 +1,8 @@
+2025-06-03 12:29:15 [INFO] log: Logging configurado exitosamente.
+2025-06-03 12:29:15 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-03 12:29:15 [INFO] server: Configurado el directorio .\folder_server
+2025-06-03 12:29:18 [INFO] server: Conexion recibida por ('127.0.0.1', 55217)
+2025-06-03 12:29:26 [INFO] server: Se recibio comando "ls"
+2025-06-03 12:30:33 [INFO] server: Se recibio comando "ls"
+2025-06-03 12:30:44 [INFO] server: Se recibio comando "exit"
+2025-06-03 12:30:44 [INFO] server: Saliendo...

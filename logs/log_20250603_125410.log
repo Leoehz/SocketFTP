@@ -1,0 +1,4 @@
+2025-06-03 12:54:10 [INFO] log: Logging configurado exitosamente.
+2025-06-03 12:54:13 [INFO] client: Se ejecutó comando "ls" localmente
+2025-06-03 12:54:26 [INFO] client: Se envió comando "ls" al servidor
+2025-06-03 12:54:39 [INFO] client: Se envió comando "exit" al servidor

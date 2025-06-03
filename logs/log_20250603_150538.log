@@ -1,0 +1,2 @@
+2025-06-03 15:05:38 [INFO] log: Logging configurado exitosamente.
+2025-06-03 15:05:38 [ERROR] server: Timeout! No se recibieron conexiones cliente los primeros 30 seg.

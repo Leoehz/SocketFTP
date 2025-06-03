@@ -1,0 +1,5 @@
+2025-06-03 12:30:52 [INFO] log: Logging configurado exitosamente.
+2025-06-03 12:30:54 [INFO] client: Se ejecutó comando "ls" localmente
+2025-06-03 12:30:59 [INFO] client: Se ejecutó comando "pwd" localmente
+2025-06-03 12:31:03 [INFO] client: Se envió comando "pwd" al servidor
+2025-06-03 12:31:07 [INFO] client: Se envió comando "exit" al servidor

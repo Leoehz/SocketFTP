@@ -1,0 +1,14 @@
+2025-06-03 14:40:28 [INFO] log: Logging configurado exitosamente.
+2025-06-03 14:40:28 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-03 14:40:28 [INFO] server: Configurado el directorio .\folder_server
+2025-06-03 14:40:35 [INFO] server: Conexion recibida por ('127.0.0.1', 57618)
+2025-06-03 14:40:39 [INFO] server: Se recibio comando "exit"
+2025-06-03 14:40:39 [INFO] server: El cliente ('127.0.0.1', 57618) pidió finalizar la sesión
+2025-06-03 14:40:39 [INFO] server: Sesión cerrada con ('127.0.0.1', 57618)
+2025-06-03 14:40:39 [INFO] server: Esperando nueva conexión de cliente ...
+2025-06-03 14:40:59 [INFO] server: Conexion recibida por ('127.0.0.1', 57631)
+2025-06-03 14:41:02 [INFO] server: Se recibio comando "ls"
+2025-06-03 14:41:38 [INFO] server: Se recibio comando "exit"
+2025-06-03 14:41:38 [INFO] server: El cliente ('127.0.0.1', 57631) pidió finalizar la sesión
+2025-06-03 14:41:38 [INFO] server: Sesión cerrada con ('127.0.0.1', 57631)
+2025-06-03 14:41:38 [INFO] server: Esperando nueva conexión de cliente ...
