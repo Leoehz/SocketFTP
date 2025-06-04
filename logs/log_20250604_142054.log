@@ -1,0 +1,4 @@
+2025-06-04 14:20:54 [INFO] log: Logging configurado exitosamente.
+2025-06-04 14:20:55 [INFO] client: Se envió comando "ls" al servidor
+2025-06-04 14:20:58 [INFO] client: Se envió comando "pwd" al servidor
+2025-06-04 14:22:21 [INFO] client: Sesion cerrada con el servidor

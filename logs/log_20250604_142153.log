@@ -1,0 +1,6 @@
+2025-06-04 14:21:53 [INFO] log: Logging configurado exitosamente.
+2025-06-04 14:21:57 [INFO] client: Se envió comando "ls" al servidor
+2025-06-04 14:22:03 [INFO] client: Se envió comando "cd folder_server" al servidor
+2025-06-04 14:22:13 [INFO] client: Se envió comando "cd sub_folder_1" al servidor
+2025-06-04 14:22:14 [INFO] client: Se envió comando "cd .." al servidor
+2025-06-04 14:22:18 [INFO] client: Sesion cerrada con el servidor

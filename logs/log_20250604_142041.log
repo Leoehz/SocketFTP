@@ -1,0 +1,34 @@
+2025-06-04 14:20:41 [INFO] log: Logging configurado exitosamente.
+2025-06-04 14:20:41 [INFO] log: Logging configurado exitosamente.
+2025-06-04 14:20:41 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-04 14:20:41 [INFO] server: Configurado el directorio .\folder_server
+2025-06-04 14:20:54 [INFO] server: Conexión aceptada de ('127.0.0.1', 53103)
+2025-06-04 14:20:54 [INFO] server: Esperando conexiones ...
+2025-06-04 14:20:55 [INFO] server: [('127.0.0.1', 53103)] Comando recibido: "ls"
+2025-06-04 14:20:55 [INFO] server: Esperando conexiones ...
+2025-06-04 14:20:58 [INFO] server: [('127.0.0.1', 53103)] Comando recibido: "pwd"
+2025-06-04 14:20:58 [INFO] server: Esperando conexiones ...
+2025-06-04 14:21:53 [INFO] server: Conexión aceptada de ('127.0.0.1', 53134)
+2025-06-04 14:21:53 [INFO] server: Esperando conexiones ...
+2025-06-04 14:21:57 [INFO] server: [('127.0.0.1', 53134)] Comando recibido: "ls"
+2025-06-04 14:21:57 [INFO] server: Esperando conexiones ...
+2025-06-04 14:22:03 [INFO] server: [('127.0.0.1', 53134)] Comando recibido: "cd folder_server"
+2025-06-04 14:22:03 [INFO] serverlib: Valor de directorio: folder_server
+2025-06-04 14:22:03 [INFO] serverlib: Directorio cambiado a: C:\Users\morso\OneDrive - Imagina Media Audiovisual S.L\Facultad\Programacion Distribuida I\Servidor FTP\SocketFTP\folder_server
+2025-06-04 14:22:03 [INFO] server: Esperando conexiones ...
+2025-06-04 14:22:13 [INFO] server: [('127.0.0.1', 53134)] Comando recibido: "cd sub_folder_1"
+2025-06-04 14:22:13 [INFO] serverlib: Valor de directorio: sub_folder_1
+2025-06-04 14:22:13 [INFO] serverlib: Directorio cambiado a: C:\Users\morso\OneDrive - Imagina Media Audiovisual S.L\Facultad\Programacion Distribuida I\Servidor FTP\SocketFTP\folder_server\sub_folder_1
+2025-06-04 14:22:13 [INFO] server: Esperando conexiones ...
+2025-06-04 14:22:14 [INFO] server: [('127.0.0.1', 53134)] Comando recibido: "cd .."
+2025-06-04 14:22:14 [INFO] serverlib: Valor de directorio: ..
+2025-06-04 14:22:14 [INFO] serverlib: Directorio cambiado a: C:\Users\morso\OneDrive - Imagina Media Audiovisual S.L\Facultad\Programacion Distribuida I\Servidor FTP\SocketFTP\folder_server
+2025-06-04 14:22:14 [INFO] server: Esperando conexiones ...
+2025-06-04 14:22:18 [INFO] server: [('127.0.0.1', 53134)] Comando recibido: "exit"
+2025-06-04 14:22:18 [INFO] serverlib: El cliente ('127.0.0.1', 53134) pidió finalizar la sesión
+2025-06-04 14:22:18 [INFO] server: Sesión cerrada con ('127.0.0.1', 53134)
+2025-06-04 14:22:18 [INFO] server: Esperando conexiones ...
+2025-06-04 14:22:21 [INFO] server: [('127.0.0.1', 53103)] Comando recibido: "exit"
+2025-06-04 14:22:21 [INFO] serverlib: El cliente ('127.0.0.1', 53103) pidió finalizar la sesión
+2025-06-04 14:22:21 [INFO] server: Sesión cerrada con ('127.0.0.1', 53103)
+2025-06-04 14:22:21 [INFO] server: Esperando conexiones ...
