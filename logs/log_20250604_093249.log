@@ -1,0 +1,9 @@
+2025-06-04 09:32:49 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:32:49 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:32:49 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-04 09:32:49 [INFO] server: Configurado el directorio .\folder_server
+2025-06-04 09:32:51 [INFO] server: Conexión aceptada de ('127.0.0.1', 59697)
+2025-06-04 09:32:51 [INFO] server: Esperando conexiones ...
+2025-06-04 09:32:52 [INFO] server: [('127.0.0.1', 59697)] Comando recibido: "ls"
+2025-06-04 09:32:52 [ERROR] server: Error con el cliente ('127.0.0.1', 59697): [WinError 3] El sistema no puede encontrar la ruta especificada: '.\\folder_server'
+2025-06-04 09:32:52 [INFO] server: Esperando conexiones ...

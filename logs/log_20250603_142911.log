@@ -1,5 +1,0 @@
-2025-06-03 14:29:11 [INFO] log: Logging configurado exitosamente.
-2025-06-03 14:29:14 [INFO] client: Se envió comando "ls" al servidor
-2025-06-03 14:29:18 [INFO] client: Se envió comando "pwd" al servidor
-2025-06-03 14:29:41 [INFO] client: Se envió comando "cd sub_folder_1" al servidor
-2025-06-03 14:31:27 [INFO] client: Se envió comando "exit" al servidor

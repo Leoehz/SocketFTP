@@ -1,8 +1,9 @@
 import socket
 import os
 import re
-from client_config import BASE_DIR
-from clientlib import request_file
+import sys
+from client_config import BASE_CLIENT_DIR
+from clientlib import request_file, set_client_base_dir
 import logging
 from log import setup_logging
 
@@ -14,6 +15,9 @@ setup_logging()
 logger = logging.getLogger('client')
 
 pattern_get = r'^get\s([\w.-_]+)$'
+
+# Setear el directorio base del cliente
+#set_client_base_dir()
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
@@ -27,7 +31,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             command = command[1:]
             if command == 'ls':
                 logger.info(f'Se ejecutó comando "{command}" localmente')
-                print('\n'.join(os.listdir(BASE_DIR)))
+                print('\n'.join(os.listdir(BASE_CLIENT_DIR)))
             elif command == 'pwd':
                 logger.info(f'Se ejecutó comando "{command}" localmente')
                 print(os.getcwd())

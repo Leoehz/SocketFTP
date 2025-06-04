@@ -1,0 +1,14 @@
+2025-06-04 09:36:49 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:36:49 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:36:49 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-04 09:36:49 [INFO] server: Configurado el directorio .\folder_server
+2025-06-04 09:36:59 [INFO] server: Conexión aceptada de ('127.0.0.1', 59748)
+2025-06-04 09:36:59 [INFO] server: Esperando conexiones ...
+2025-06-04 09:37:00 [INFO] server: [('127.0.0.1', 59748)] Comando recibido: "ls"
+2025-06-04 09:37:00 [INFO] server: Esperando conexiones ...
+2025-06-04 09:37:08 [INFO] server: [('127.0.0.1', 59748)] Comando recibido: "pwd"
+2025-06-04 09:37:08 [INFO] server: Esperando conexiones ...
+2025-06-04 09:37:36 [INFO] server: [('127.0.0.1', 59748)] Comando recibido: "exit"
+2025-06-04 09:37:36 [INFO] serverlib: El cliente ('127.0.0.1', 59748) pidió finalizar la sesión
+2025-06-04 09:37:36 [INFO] server: Sesión cerrada con ('127.0.0.1', 59748)
+2025-06-04 09:37:36 [INFO] server: Esperando conexiones ...

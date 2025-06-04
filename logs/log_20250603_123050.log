@@ -1,7 +1,0 @@
-2025-06-03 12:30:50 [INFO] log: Logging configurado exitosamente.
-2025-06-03 12:30:50 [INFO] server: Escuchando en el host 127.0.0.1:65432
-2025-06-03 12:30:50 [INFO] server: Configurado el directorio .\folder_server
-2025-06-03 12:30:52 [INFO] server: Conexion recibida por ('127.0.0.1', 55254)
-2025-06-03 12:31:03 [INFO] server: Se recibio comando "pwd"
-2025-06-03 12:31:07 [INFO] server: Se recibio comando "exit"
-2025-06-03 12:31:07 [INFO] server: Saliendo...

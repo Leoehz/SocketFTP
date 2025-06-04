@@ -1,0 +1,9 @@
+2025-06-04 09:27:50 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:27:50 [INFO] log: Logging configurado exitosamente.
+2025-06-04 09:27:50 [INFO] server: Escuchando en el host 127.0.0.1:65432
+2025-06-04 09:27:50 [INFO] server: Configurado el directorio .\folder_server
+2025-06-04 09:27:54 [INFO] server: Conexión aceptada de ('127.0.0.1', 59606)
+2025-06-04 09:27:54 [INFO] server: Esperando conexiones ...
+2025-06-04 09:27:56 [INFO] server: [('127.0.0.1', 59606)] Comando recibido: "ls"
+2025-06-04 09:27:56 [WARNING] serverlib: Intento de listar en ruta no permitido
+2025-06-04 09:27:56 [INFO] server: Esperando conexiones ...

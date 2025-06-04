@@ -1,6 +1,7 @@
 import socket
 import os
-from client_config import BASE_DIR, BUFFER_SIZE
+import sys
+from client_config import BASE_CLIENT_DIR, BUFFER_SIZE
 
 def request_file(sock, filename):
     """Solicita y recibe un archivo del servidor"""
@@ -23,7 +24,7 @@ def request_file(sock, filename):
                 print(f"Transferencia iniciada. Tamaño del archivo: {filesize} bytes.")
 
                 # Preparar para recibir el archivo
-                local_filepath = os.path.join(BASE_DIR, os.path.basename(filename))
+                local_filepath = os.path.join(BASE_CLIENT_DIR, os.path.basename(filename))
                 bytes_recibidos = 0
                 with open(local_filepath, 'wb') as f: # Abrir en modo binario 'wb'
                     while bytes_recibidos < filesize:
@@ -61,3 +62,9 @@ def request_file(sock, filename):
         print(f"Error de socket: {e}")
     except Exception as e:
         print(f"Ocurrió un error inesperado: {e}")
+
+def set_client_base_dir():
+    try:
+        os.chdir(BASE_CLIENT_DIR)
+    except Exception as e:
+        sys.exit(1)
