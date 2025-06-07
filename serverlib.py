@@ -15,8 +15,9 @@ logger = logging.getLogger('serverlib')
 pattern_get = r'^get\s([\w.-_]+)$'
 pattern_cd = r'^cd\s+([\w/.-_]+)$'
 
-def handle_ls(conn):
-    response = '\n'.join(os.listdir(BASE_SERVER_DIR))
+def handle_ls(conn):    # REVISAR
+    current_directory = os.getcwd()   # Cambio nuevo
+    response = '\n'.join(os.listdir(current_directory))
     conn.sendall(response.encode())
 
 def handle_echo(conn, data):
@@ -53,7 +54,8 @@ def handle_get(conn, command):
         return
 
     filename = match.group(1)
-    file_path = os.path.join(BASE_SERVER_DIR, filename)
+    current_dir = os.getcwd()  # Cambio nuevo
+    file_path = os.path.join(current_dir, filename)  # REVISAR
 
     if not os.path.isfile(file_path):
         response = 'Archivo inexistente en directorio remoto.'
